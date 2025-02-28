@@ -1,0 +1,136 @@
+@vw: 3.75vw;
+@import url(./abc.less);
+body {
+  background-color: #252a2f;
+}
+a {
+  color: #fff;
+}
+// 头部
+.header {
+  height: (168 / @vw);
+  margin-top: (18 / @vw);
+}
+// 头部第一部分
+.header ul {
+  margin-right: (46 / @vw);
+  margin-top: (18 / @vw);
+  margin-left: (40 / @vw);
+  display: flex;
+  justify-content: space-between;
+  height: (41 / @vw);
+  // line-height: (41 / @vw);
+}
+.header ul li:first-child {
+  height: (12 / @vw);
+  width: (20 / @vw);
+  margin-top: (12 / @vw);
+}
+.header ul li:nth-child(2) {
+  height: (41 / @vw);
+  width: (41 / @vw);
+}
+.header ul li:nth-child(3) {
+  font-size: (16 / @vw);
+  margin-top: (16 / @vw);
+  font-weight: 600;
+}
+.header ul li:nth-child(4) {
+  font-size: (16 / @vw);
+  margin-top: (16 / @vw);
+  font-weight: 600;
+}
+.header {
+  .top2 {
+    font-size: (40 / @vw);
+    font-weight: 600;
+    margin-top: (52 / @vw);
+    margin-left: (132 / @vw);
+    color: #fff;
+    margin-bottom: (20 / @vw);
+  }
+  .top3 {
+    background-color: #9b59b6;
+    color: #fff;
+    padding: (20 / @vw) (30 / @vw);
+    font-size: (26 / @vw);
+    height: (72 / @vw);
+  }
+}
+.border {
+  margin-top: (72 / @vw);
+  // height: (1074 / @vw);
+  background-color: #fff;
+  // padd  ing: (23 / @vw) (32 / @vw);
+  .border1 {
+    padding-top: (23 / @vw);
+    margin-left: (30 / @vw);
+    margin-right: (30 / @vw);
+    a {
+      font-size: (26 / @vw);
+      color: #9b59b6;
+      font-weight: 600;
+    }
+  }
+  .border2 {
+    img {
+      margin-left: (30 / @vw);
+      margin-right: (30 / @vw);
+      border-radius: (5 / @vw);
+      height: (126 / @vw);
+      width: (313 / @vw);
+      margin-top: (6 / @vw);
+    }
+  }
+  .border3 ul {
+    margin-left: (30 / @vw);
+    margin-right: (30 / @vw);
+    margin-top: (17 / @vw);
+
+    color: #5a5e68;
+    font-size: (15.6 / @vw);
+    font-weight: 400;
+    li:nth-child(2) {
+      margin-top: (25 / @vw);
+    }
+  }
+  .border4 {
+    // margin-left: (30 / @vw);
+    // margin-right: (30 / @vw);
+    background-color: #9b59b6;
+    margin-top: (27 / @vw);
+    height: (44 / @vw);
+    width: (153 / @vw);
+    border-radius: (5 / @vw);
+    margin-bottom: (23 / @vw);
+    a {
+      line-height: (44 / @vw);
+      margin-left: (36 / @vw);
+      font-size: (16 / @vw);
+    }
+  }
+}
+// 最后部分
+.foot {
+  height: (118 / @vw);
+  // margin-top: (60 / @vw);
+  background-color: #252a2f;
+
+  .to {
+    padding-top: (23 / @vw);
+    margin-left: (51 / @vw);
+    margin-right: (51 / @vw);
+    font-size: (16 / @vw);
+    font-weight: 600;
+    color: #9b59b6;
+  }
+  .buttom {
+    margin-top: (24 / @vw);
+    margin-left: (137 / @vw);
+    margin-right: (137 / @vw);
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

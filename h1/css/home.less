@@ -1,0 +1,184 @@
+//vw宽
+@vw: 3.75vw;
+@import url(./abc.less);
+a {
+  color: #fff;
+}
+body {
+  background-color: #252a2f;
+  position: relative;
+}
+// 头部
+.header {
+  margin-right: (46 / @vw);
+}
+// 头部第一部分
+.header ul {
+  padding-top: (18 / @vw);
+  margin-left: (40 / @vw);
+  display: flex;
+  justify-content: space-between;
+  height: (41 / @vw);
+  // line-height: (41 / @vw);
+}
+.header ul li:first-child {
+  height: (12 / @vw);
+  width: (20 / @vw);
+  margin-top: (12 / @vw);
+}
+.header ul li:nth-child(2) {
+  height: (41 / @vw);
+  width: (41 / @vw);
+}
+.header ul li:nth-child(3) {
+  font-size: (16 / @vw);
+  margin-top: (16 / @vw);
+  font-weight: 600;
+}
+.header ul li:nth-child(4) {
+  font-size: (16 / @vw);
+  margin-top: (16 / @vw);
+  font-weight: 600;
+}
+// 头部第二部分
+.header .top2 {
+  color: #fff;
+  .top {
+    margin-top: (93 / @vw);
+    margin-left: (52 / @vw);
+    font-size: (22 / @vw);
+    font-weight: 800;
+  }
+  .bottom {
+    margin-left: (22 / @vw);
+    margin-right: (22 / @vw);
+    margin-top: (22 / @vw);
+    font-size: (14 / @vw);
+    font-weight: 600;
+    span {
+      margin-left: (80 / @vw);
+    }
+  }
+}
+// 中间部分
+.border {
+  color: #fff;
+  font-size: (16 / @vw);
+  font-weight: 600;
+  // 第一季度
+  .head1 a {
+    margin-left: (110 / @vw);
+    margin-right: (80 / @vw);
+    margin-top: (36 / @vw);
+    justify-content: space-between;
+    display: flex;
+    height: (13 / @vw);
+    line-height: (13 / @vw);
+    .right {
+      height: (11 / @vw);
+      width: (8 / @vw);
+    }
+  }
+  .head1 a:hover {
+    color: #9b59b6;
+  }
+
+  // 第二季季度
+  .head2 {
+    margin-left: (73 / @vw);
+    margin-top: (20 / @vw);
+    margin-right: (73 / @vw);
+    img {
+      height: (353 / @vw);
+      width: (231 / @vw);
+    }
+  }
+  .head3 {
+    height: (421 / @vw);
+    background: #9b59b6;
+
+    ul {
+      color: #fff;
+      font-size: (15 / @vw);
+
+      li a img {
+        margin-top: (32 / @vw);
+        margin-bottom: (16 / @vw);
+        height: (38 / @vw);
+        width: (40 / @vw);
+        margin-left: (168 / @vw);
+      }
+      li:nth-child(2) {
+        margin-left: (63 / @vw);
+        margin-right: (63 / @vw);
+        font-weight: 600;
+      }
+      li:nth-child(3) {
+        margin-top: (19 / @vw);
+        margin-left: (58 / @vw);
+        margin-right: (58 / @vw);
+        font-size: (12 / @vw);
+      }
+    }
+  }
+}
+
+.foot {
+  height: (118 / @vw);
+  .top {
+    margin-top: (22 / @vw);
+    margin-left: (51 / @vw);
+    margin-right: (51 / @vw);
+    font-size: (16 / @vw);
+    font-weight: 600;
+    color: #9b59b6;
+  }
+  .buttom {
+    margin-top: (24 / @vw);
+    margin-left: (137 / @vw);
+    margin-right: (137 / @vw);
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.bod {
+  position: absolute;
+  top: 0;
+  // background-color: #384148;
+  height: (668 / @vw);
+  // width: (300 / @vw);
+  animation: cange 1s forwards;
+  ul {
+    margin-top: (20 / @vw);
+    font-size: (16 / @vw);
+    color: #fff;
+
+    li {
+      padding: (19 / @vw) (18 / @vw);
+      height: (49 / @vw);
+    }
+    li:first-child {
+      background-color: #9b59b6;
+    }
+    li:hover {
+      background-color: #9b59b6;
+    }
+  }
+}
+.header ul li:first-child :hover {
+  position: relative;
+}
+@keyframes cange {
+  0% {
+    width: (0 / @vw);
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    background-color: #384148;
+
+    width: (80 / @vw);
+  }
+}

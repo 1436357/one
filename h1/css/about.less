@@ -1,0 +1,183 @@
+@vw: 3.75vw;
+@import url(./abc.less);
+body {
+  background-color: #252a2f;
+}
+a {
+  color: #fff;
+}
+// 头部
+.header {
+  height: (168 / @vw);
+  margin-top: (18 / @vw);
+}
+// 头部第一部分
+.header ul {
+  margin-right: (46 / @vw);
+  margin-top: (18 / @vw);
+  margin-left: (40 / @vw);
+  display: flex;
+  justify-content: space-between;
+  height: (41 / @vw);
+  // line-height: (41 / @vw);
+}
+.header ul li:first-child {
+  height: (12 / @vw);
+  width: (20 / @vw);
+  margin-top: (12 / @vw);
+}
+.header ul li:nth-child(2) {
+  height: (41 / @vw);
+  width: (41 / @vw);
+}
+.header ul li:nth-child(3) {
+  font-size: (16 / @vw);
+  margin-top: (16 / @vw);
+  font-weight: 600;
+}
+.header ul li:nth-child(4) {
+  font-size: (16 / @vw);
+  margin-top: (16 / @vw);
+  font-weight: 600;
+}
+.header {
+  .top2 {
+    font-size: (40 / @vw);
+    font-weight: 600;
+    margin-top: (52 / @vw);
+    margin-left: (100 / @vw);
+    color: #fff;
+    margin-bottom: (20 / @vw);
+  }
+  .top3 {
+    background-color: #9b59b6;
+    color: #fff;
+    padding: (20 / @vw) (30 / @vw);
+    font-size: (26 / @vw);
+    height: (72 / @vw);
+  }
+}
+// 中间
+.border {
+  background-color: #fff;
+  margin-top: (72 / @vw);
+  padding-bottom: (74 / @vw);
+  .bod1 {
+    margin-left: (19 / @vw);
+    margin-top: (57 / @vw);
+    p {
+      padding-top: (57 / @vw);
+      font-size: (26 / @vw);
+      font-weight: 400;
+    }
+    img {
+      margin-top: (33 / @vw);
+      height: (225 / @vw);
+      width: (338 / @vw);
+      border-radius: (5 / @vw);
+      margin-bottom: (40 / @vw);
+    }
+  }
+  .bod2 {
+    margin-left: (19 / @vw);
+    h3 {
+      font-size: (26 / @vw);
+      margin-bottom: (22 / @vw);
+    }
+    p {
+      font-size: (16 / @vw);
+      color: #5a5e7c;
+    }
+    ul {
+      li {
+        margin-top: (36 / @vw);
+        .top1 {
+          display: flex;
+          color: #5a5e68;
+          font-size: (20 / @vw);
+          font-weight: 600;
+          justify-content: space-between;
+          p {
+            font-size: (20 / @vw);
+            margin-right: (19 / @vw);
+          }
+        }
+        .butt {
+          img {
+            width: (338 / @vw);
+            height: (11 / @vw);
+            margin-top: (20 / @vw);
+          }
+        }
+      }
+    }
+  }
+  .bod3 {
+    background-color: #fff;
+    margin-top: (35 / @vw);
+    margin-right: (19 / @vw);
+    ul {
+      padding-top: (42 / @vw);
+      margin-left: (19 / @vw);
+      li:first-child {
+        margin-left: (108 / @vw);
+        font-size: (26 / @vw);
+        margin-bottom: (38 / @vw);
+        font-weight: 700;
+      }
+      li:nth-child(2) {
+        margin-left: (52 / @vw);
+        img {
+          height: (220 / @vw);
+          width: (220 / @vw);
+          border-radius: 50%;
+        }
+      }
+      li:nth-child(3) {
+        font-size: (16 / @vw);
+        h3 {
+          margin-top: (33 / @vw);
+          margin-left: (89 / @vw);
+          color: #9b59b6;
+          font-size: (22 / @vw);
+        }
+        p {
+          margin-left: (112 / @vw);
+          margin-top: (40 / @vw);
+          color: black;
+          font-weight: 700;
+          margin-bottom: (25 / @vw);
+        }
+        span {
+          color: #5a5e68;
+          font-size: (14 / @vw);
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+// 最后部分
+.foot {
+  height: (118 / @vw);
+  // margin-top: (60 / @vw);
+  background-color: #252a2f;
+
+  .to {
+    padding-top: (23 / @vw);
+    margin-left: (51 / @vw);
+    margin-right: (51 / @vw);
+    font-size: (16 / @vw);
+    font-weight: 600;
+    color: #9b59b6;
+  }
+  .buttom {
+    margin-top: (24 / @vw);
+    margin-left: (137 / @vw);
+    margin-right: (137 / @vw);
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
